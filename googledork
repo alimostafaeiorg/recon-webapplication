@@ -1,0 +1,55 @@
+To search for indexes with inurl, ext, link, site, intitle:
+
+
+
+site: domain.tld inurl:&
+site: domain.tld ext: (php|v|asp|txt|jsp|html|xml|bak)
+site:domain.tld inurl: (unsubscribe|register|feedback|signup|join|contact|profile|user|comment|api|developer|affiliate|upload|mobile|upgrade|password
+site:domain.tld ext:xml | ext:xls | ext:env filetype:env | ext:ppt | ext:atom |ext:conf | ext:cnf | ext:reg | ext:inf | ext:rdp | ext:cfg | ext:txt | ext:ora | ext:ini
+site:domain.tld ext:sql | ext:dbf | ext:mdb | ext:log
+site:domain.tld ext:bkf | ext:bkp | ext:bak | ext:old | ext:backup
+site:domain.tld inurl:login | inurl:signin | intitle:Login | intitle: signin | inurl:auth
+site: domain.tld ext:doc | ext:odt | ext:pdf | ext:rtf | ext:sxw | ext:psw | ext:ppt | ext:pptx | ext:pps | ext:csv
+site:domain.tld ext:action | ext:struts | ext:do
+site:domain.tld filetype:wsdl | filetype:WSDL | ext:svc | inurl:wsdl | Filetype: ?wsdl | inurl:asmx?wsdl | inurl:jws?wsdl | intitle:_vti_bin/site
+site:domain.tld filetype:config
+site:*.domain.tld
+site:.domain.tld intitle: "Welcome to Nginx"
+
+
+
+
+
+site:*.example.com
+site:example.com inurl:app/kibana
+intitle: index of /phpMyAdmin/index.php
+inurl:cas/login?service=http
+intitle:"index of" 
+intitle:"config.php"
+inurl:"/private"
+allintitle:"Login | wplogin Login
+inurl:cas/login?service=http
+intitle:"index of" "java.log" | "java.logs"
+
+
+
+---------------------------------------------------------------------
+
+Some google dorks resourses for bug bounty hunting:
+
+Google Hacking Database (GHDB) - Exploit-DB] ->  https://www.exploit-db.com/google-hacking-database)**
+
+Google Hacking - Free Google Dorks for Recon ->  https://pentest-tools.com/information-gathering/google-hacking)**
+
+Google Dorks Bug Bounty ->  https://github.com/TakSec/google-dorks-bug-bounty 
+
+Mike Takahashi ->  https://taksec.medium.com/?source=post_page-----f283dee5c370--------------------------------
+
+
+Useful Google Dorks For WebSecurity And Bug Bounty 1->  https://github.com/lutfumertceylan/top25-parameter
+
+Useful Google Dorks For WebSecurity And Bug Bounty 2 ->  https://github.com/Proviesec/google-dorks
+
+Bug Bounty Helper -> https://dorks.faisalahmed.me
+
+Bug Bounty Dorks -> https://github.com/shifa123/bugbountyDorks/blob/master/bbdorks
